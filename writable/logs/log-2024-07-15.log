@@ -1,0 +1,473 @@
+INFO - 2024-07-15 00:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-15 00:33:44 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_beverly', 3306, '', 0)
+#1 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\LENOVO\Videos\PT. Beverly International\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Videos\PT. Beverly International\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\LENOVO\Videos\PT. Beverly International\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#7 C:\Users\LENOVO\Videos\PT. Beverly International\app\Controllers\Home.php(84): App\Models\UserModel->getUserByCredentials('pd001', 'Produksi')
+#8 C:\Users\LENOVO\Videos\PT. Beverly International\system\CodeIgniter.php(942): App\Controllers\Home->validasi()
+#9 C:\Users\LENOVO\Videos\PT. Beverly International\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\Users\LENOVO\Videos\PT. Beverly International\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Videos\PT. Beverly International\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Videos\PT. Beverly International\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\LENOVO\Videos\PT. Beverly International\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\LENOVO\Videos\PT. Beverly International\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\Users\LENOVO\Videos\PT. Beverly International\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#6 C:\Users\LENOVO\Videos\PT. Beverly International\app\Controllers\Home.php(84): App\Models\UserModel->getUserByCredentials('pd001', 'Produksi')
+#7 C:\Users\LENOVO\Videos\PT. Beverly International\system\CodeIgniter.php(942): App\Controllers\Home->validasi()
+#8 C:\Users\LENOVO\Videos\PT. Beverly International\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\LENOVO\Videos\PT. Beverly International\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\LENOVO\Videos\PT. Beverly International\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\LENOVO\Videos\PT. Beverly International\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO...')
+#12 {main}
+CRITICAL - 2024-07-15 00:33:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `id_user` = :id_user:
+AND `bagian` = :bagian:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(84): App\Models\UserModel->getUserByCredentials('pd001', 'Produksi')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validasi()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 00:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 00:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-15 15:25:57 --> mysqli_sql_exception: Unknown column 'id_user' in 'field list' in C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\LENOVO\Videos\PT. Beverly International\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\LENOVO\Videos\PT. Beverly International\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\LENOVO\Videos\PT. Beverly International\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\LENOVO\Videos\PT. Beverly International\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\LENOVO\Videos\PT. Beverly International\app\Controllers\Produksi.php(57): CodeIgniter\Model->insert(Array)
+#8 C:\Users\LENOVO\Videos\PT. Beverly International\system\CodeIgniter.php(942): App\Controllers\Produksi->store()
+#9 C:\Users\LENOVO\Videos\PT. Beverly International\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produksi))
+#10 C:\Users\LENOVO\Videos\PT. Beverly International\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Videos\PT. Beverly International\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Videos\PT. Beverly International\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2024-07-15 15:25:57 --> Unknown column 'id_user' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_produksi` (`kode_produksi`, `id_user`, `tanggal_produksi`, `total_produksi`, `id_brg`) VALUES (:kode_produksi:, :id_user:, :tanggal_produksi:, :total_produksi:, :id_brg:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Produksi.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produksi->store()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 15:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 15:34:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 15:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 15:42:23 --> Undefined array key "banyaknya"
+in APPPATH\Views\produksi\pengajuan\pengajuan.php on line 47.
+ 1 APPPATH\Views\produksi\pengajuan\pengajuan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "banyaknya"', 'C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\produksi\\pengajuan\\pengajuan.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\produksi\\pengajuan\\pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('produksi/pengajuan/pengajuan', [], true)
+ 5 APPPATH\Controllers\Pengajuan.php(21): view('produksi/pengajuan/pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pengajuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 15:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 15:46:46 --> Undefined array key "nama_produk"
+in APPPATH\Views\produksi\stokMasuk\stokMasuk.php on line 45.
+ 1 APPPATH\Views\produksi\stokMasuk\stokMasuk.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_produk"', 'C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\produksi\\stokMasuk\\stokMasuk.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\produksi\\stokMasuk\\stokMasuk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('produksi/stokMasuk/stokMasuk', [], true)
+ 5 APPPATH\Controllers\StokMasuk.php(20): view('produksi/stokMasuk/stokMasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\StokMasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 15:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 15:46:58 --> Undefined array key "banyaknya"
+in APPPATH\Views\produksi\stok\stok_real.php on line 45.
+ 1 APPPATH\Views\produksi\stok\stok_real.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "banyaknya"', 'C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\produksi\\stok\\stok_real.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\produksi\\stok\\stok_real.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('produksi/stok/stok_real', [], true)
+ 5 APPPATH\Controllers\Stokk.php(20): view('produksi/stok/stok_real', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stokk->stok_real()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stokk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 15:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 15:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 15:59:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 15:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 15:59:56 --> Undefined array key "banyaknya"
+in APPPATH\Views\laporan\produksi\laporanPengajuan.php on line 50.
+ 1 APPPATH\Views\laporan\produksi\laporanPengajuan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "banyaknya"', 'C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\laporan\\produksi\\laporanPengajuan.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\laporan\\produksi\\laporanPengajuan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan/produksi/laporanPengajuan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(379): view('laporan/produksi/laporanPengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->laporan_pengajuan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 15:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:02:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:02:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:02:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:03:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:03:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:05:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:06:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 16:06:00 --> Undefined array key "nama_produk"
+in APPPATH\Views\laporan\produksi\cetakMasuk.php on line 38.
+ 1 APPPATH\Views\laporan\produksi\cetakMasuk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_produk"', 'C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\laporan\\produksi\\cetakMasuk.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\laporan\\produksi\\cetakMasuk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan/produksi/cetakMasuk', [], true)
+ 5 APPPATH\Controllers\Laporan.php(415): view('laporan/produksi/cetakMasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->cetak_masuk()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+WARNING - 2024-07-15 16:06:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:11:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 16:11:13 --> Undefined array key "banyaknya"
+in APPPATH\Views\laporan\produksi\laporanStok.php on line 49.
+ 1 APPPATH\Views\laporan\produksi\laporanStok.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "banyaknya"', 'C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\laporan\\produksi\\laporanStok.php', 49)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\laporan\\produksi\\laporanStok.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan/produksi/laporanStok', [], true)
+ 5 APPPATH\Controllers\Laporan.php(427): view('laporan/produksi/laporanStok', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->laporan_stok()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+WARNING - 2024-07-15 16:11:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:12:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:13:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:13:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:15:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:15:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:41:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 16:41:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 16:57:37 --> Undefined array key "id_user"
+in APPPATH\Views\produksi\produksi\edit.php on line 41.
+ 1 APPPATH\Views\produksi\produksi\edit.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\produksi\\produksi\\edit.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\produksi\\produksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('produksi/produksi/edit', [], true)
+ 5 APPPATH\Controllers\Produksi.php(67): view('produksi/produksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produksi->edit('P32')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 16:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 16:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 17:03:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 17:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 17:03:27 --> Undefined array key "id_user"
+in APPPATH\Views\laporan\produksi\laporan.php on line 50.
+ 1 APPPATH\Views\laporan\produksi\laporan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\laporan\\produksi\\laporan.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\laporan\\produksi\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan/produksi/laporan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(355): view('laporan/produksi/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->laporan_produksi()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+WARNING - 2024-07-15 17:05:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 17:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 17:05:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 17:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 17:06:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 17:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 17:06:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 17:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-15 17:06:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Laporan::$stokModel is deprecated in APPPATH\Controllers\Laporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 17:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 17:07:02 --> Undefined array key "id_user"
+in APPPATH\Views\produksi\produksi\produksiKaryawan.php on line 43.
+ 1 APPPATH\Views\produksi\produksi\produksiKaryawan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\produksi\\produksi\\produksiKaryawan.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\app\\Views\\produksi\\produksi\\produksiKaryawan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('produksi/produksi/produksiKaryawan', [], true)
+ 5 APPPATH\Controllers\Produksi.php(27): view('produksi/produksi/produksiKaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produksi->produksiKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Videos\\PT. Beverly International\\public\\index.php')
+INFO - 2024-07-15 17:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 17:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

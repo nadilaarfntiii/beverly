@@ -1,0 +1,196 @@
+INFO - 2024-03-31 07:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 07:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 07:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-31 07:50:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$KategoriModel is deprecated in APPPATH\Controllers\Kategori.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Kategori->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 07:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 07:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 07:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 07:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 07:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 07:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:21:39 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:21:55 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:25:05 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:25:15 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:25:57 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:26:08 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:35:06 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:36:18 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:37:46 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:38:35 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:38:46 --> "authlogin" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authlogin')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('authlogin')
+ 3 APPPATH\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run([...], 'authlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->proses_login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 08:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:53:26 --> Too few arguments to function App\Controllers\BaseController::cek_login(), 0 passed in C:\xampp\htdocs\PT. Beverly International\app\Controllers\Auth.php on line 13 and exactly 2 expected
+in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(13): App\Controllers\BaseController->cek_login()
+ 2 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+CRITICAL - 2024-03-31 08:59:05 --> Too few arguments to function App\Controllers\BaseController::cek_login(), 0 passed in C:\xampp\htdocs\PT. Beverly International\app\Controllers\Auth.php on line 13 and exactly 2 expected
+in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(13): App\Controllers\BaseController->cek_login()
+ 2 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 08:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 08:59:38 --> Call to private method App\Controllers\BaseController::cek_login() from scope App\Controllers\Auth
+in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-03-31 09:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 09:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

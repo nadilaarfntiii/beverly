@@ -1,0 +1,1390 @@
+INFO - 2024-06-21 02:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 02:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 02:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 02:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 02:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 02:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 02:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 02:56:24 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+CRITICAL - 2024-06-21 02:57:24 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+CRITICAL - 2024-06-21 02:57:27 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 02:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 02:57:32 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 03:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 03:06:48 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 03:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 03:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 03:06:54 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 03:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 03:07:57 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 03:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 03:08:00 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 03:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 03:08:34 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 03:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 03:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 03:08:46 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 03:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 03:09:07 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 03:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 03:30:17 --> Undefined variable $nama
+in APPPATH\Views\layouts\components\topbar.php on line 165.
+ 1 APPPATH\Views\layouts\components\topbar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\components\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/components/topbar', null, true)
+ 5 APPPATH\Views\layouts\admin.php(55): CodeIgniter\View\View->include('layouts/components/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\layouts\\admin.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('/layouts/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modal_awal', [], true)
+10 APPPATH\Controllers\Home.php(122): view('modal_awal')
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modal()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 04:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-21 04:21:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$KategoriModel is deprecated in APPPATH\Controllers\Kategori.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Kategori->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 04:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 04:26:36 --> Cannot use object of type stdClass as array
+in APPPATH\Views\permintaan_gudang.php on line 73.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('permintaan_gudang', [], true)
+ 4 APPPATH\Controllers\UnitGudang.php(29): view('permintaan_gudang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UnitGudang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitGudang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 04:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 04:30:11 --> Cannot use object of type stdClass as array
+in APPPATH\Views\permintaan_gudang.php on line 73.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('permintaan_gudang', [], true)
+ 4 APPPATH\Controllers\UnitGudang.php(29): view('permintaan_gudang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UnitGudang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitGudang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 04:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 04:34:15 --> Cannot use object of type stdClass as array
+in APPPATH\Views\permintaan_gudang.php on line 73.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('permintaan_gudang', [], true)
+ 4 APPPATH\Controllers\UnitGudang.php(31): view('permintaan_gudang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UnitGudang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitGudang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 04:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 04:34:56 --> Cannot use object of type stdClass as array
+in APPPATH\Views\permintaan_gudang.php on line 73.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('permintaan_gudang', [], true)
+ 4 APPPATH\Controllers\UnitGudang.php(27): view('permintaan_gudang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UnitGudang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitGudang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 04:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 04:37:52 --> Cannot use object of type stdClass as array
+in APPPATH\Views\permintaan_hr.php on line 69.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('permintaan_hr', [], true)
+ 4 APPPATH\Controllers\UnitHRPersonalia.php(23): view('permintaan_hr', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UnitHRPersonalia->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitHRPersonalia))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 04:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 04:39:30 --> Cannot use object of type stdClass as array
+in APPPATH\Views\permintaan_hr.php on line 69.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('permintaan_hr', [], true)
+ 4 APPPATH\Controllers\UnitHRPersonalia.php(23): view('permintaan_hr', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UnitHRPersonalia->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitHRPersonalia))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 04:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 04:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:08:18 --> Call to undefined method App\Models\PendapatanModel::getPendapatanPerBulan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Model->__call('getPendapatanPerBulan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-21 05:09:45 --> mysqli_sql_exception: Unknown column 'jumlah' in 'field list' in C:\xampp\htdocs\PT. Beverly International\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\PT. Beverly International\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT MONTH(ta...', 0)
+#1 C:\xampp\htdocs\PT. Beverly International\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(ta...')
+#2 C:\xampp\htdocs\PT. Beverly International\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(ta...')
+#3 C:\xampp\htdocs\PT. Beverly International\app\Models\PendapatanModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(ta...')
+#4 C:\xampp\htdocs\PT. Beverly International\app\Controllers\Home.php(37): App\Models\PendapatanModel->getPendapatanPerBulan()
+#5 C:\xampp\htdocs\PT. Beverly International\system\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+#6 C:\xampp\htdocs\PT. Beverly International\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\PT. Beverly International\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PT. Beverly International\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PT. Beverly International\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-06-21 05:09:45 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\PendapatanModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(tanggal) as bulan, SUM(jumlah) as total_pendapatan 
+                                   FROM tb_pendapatan 
+                                   GROUP BY MONTH(tanggal)')
+ 2 APPPATH\Controllers\Home.php(37): App\Models\PendapatanModel->getPendapatanPerBulan()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:10:03 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:11:22 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:14:07 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:15:39 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:17:25 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:19:23 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:21:05 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:22:54 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:25:17 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:34:52 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:38:49 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:45:21 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:48:06 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:48:29 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:48:45 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-21 05:50:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$KategoriModel is deprecated in APPPATH\Controllers\Kategori.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Kategori->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:50:46 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:50:58 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 05:52:03 --> Call to undefined method App\Models\PendapatanModel::getDataForChart
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pendapatan.php(165): CodeIgniter\Model->__call('getDataForChart', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 05:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 05:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 07:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 07:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 07:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 07:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 07:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:12:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:13:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:14:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:15:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:15:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:15:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:15:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:15:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:15:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:16:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:16:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:16:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:16:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:16:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:16:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-21 08:17:14 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 391.
+ 1 APPPATH\Views\dashboard.php(391): number_format(null, 0, ',', ',')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:17:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:17:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:17:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:18:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:18:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:18:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:18:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:18:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:18:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:21:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-okvy.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:21:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-cindy.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:21:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\pendapatan_update.php on line 26.
+ 1 APPPATH\Views\pendapatan_update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\pendapatan_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pendapatan_update', [], true)
+ 5 APPPATH\Controllers\Pendapatan.php(99): view('pendapatan_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pendapatan->ubah('assets', 'img', 'pp-fia.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendapatan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 08:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:49:25 --> Undefined variable $totalPendapatanBulanIni
+in APPPATH\Views\dashboard.php on line 724.
+ 1 APPPATH\Views\dashboard.php(724): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalPendapatanBulanIni', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\dashboard.php', 724)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+INFO - 2024-06-21 09:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 09:41:57 --> Undefined variable $laporanPendapatan
+in APPPATH\Views\laporan\index.php on line 50.
+ 1 APPPATH\Views\laporan\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $laporanPendapatan', 'C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\laporan\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\PT. Beverly International\\app\\Views\\laporan\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan/index', [], true)
+ 5 APPPATH\Controllers\Laporan.php(12): view('laporan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+CRITICAL - 2024-06-21 09:46:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(838): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\LaporanModel.php(22): CodeIgniter\Model->__get('tablePendapatan')
+ 4 APPPATH\Controllers\Laporan.php(12): App\Models\LaporanModel->getLaporanPendapatan()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
+CRITICAL - 2024-06-21 09:53:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(838): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\LaporanModel.php(22): CodeIgniter\Model->__get('tablePendapatan')
+ 4 APPPATH\Controllers\Laporan.php(12): App\Models\LaporanModel->getLaporanPendapatan()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PT. Beverly International\\public\\index.php')
