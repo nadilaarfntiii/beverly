@@ -12,10 +12,17 @@ $routes->get('/', 'Home::index');
 /* $routes->get('/register', 'Home::registrasi'); */
 $routes->get('/validasi','Home::validasi'); 
 $routes->get('/logout_ac', 'Home::logout_ac');
-$routes->get('/dashboard_k', 'Home::dashboard_k', ['filter' => 'auth_login']); // Login ke Dashboard Keuangan
+/* $routes->get('/dashboard_k', 'Home::dashboard_k', ['filter' => 'auth_login']); // Login ke Dashboard Keuangan
 $routes->get('/dashboard_g', 'Home::dashboard_g', ['filter' => 'auth_login']); // Login ke Dashboard Gudang
 $routes->get('/dashboard_p', 'Home::dashboard_p', ['filter' => 'auth_login']); // Login ke Dashboard Produksi
-$routes->get('/dashboard_h', 'Home::dashboard_h', ['filter' => 'auth_login']); // Login ke Dashboard HR Personalia
+$routes->get('/dashboard_h', 'Home::dashboard_h', ['filter' => 'auth_login']); // Login ke Dashboard HR Personalia */
+
+
+$routes->get('/dashboard_k', 'Home::dashboard_k'); // Dashboard Keuangan
+$routes->get('/dashboard_g', 'Home::dashboard_g'); // Dashboard Gudang
+$routes->get('/dashboard_p', 'Home::dashboard_p'); // Dashboard Produksi
+$routes->get('/dashboard_h', 'Home::dashboard_h');
+
 $routes->get('/dt_user','Home::dt_user'); 
 $routes->get('/modal_awal', 'Home::modal');
 

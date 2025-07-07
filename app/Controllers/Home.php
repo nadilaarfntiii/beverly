@@ -15,7 +15,7 @@ class Home extends BaseController
         return view('login');
     }
     
-    public function dashboard_k()
+    /* public function dashboard_k()
     {
         $session_lg = session();
         $pendapatanModel = new PendapatanModel();
@@ -41,9 +41,10 @@ class Home extends BaseController
         ];
 
         return view('keuangan/dashboard_k', $data);
-    }
+    } */
+    
 
-    public function dashboard_g()
+    /* public function dashboard_g()
     {
         $session_lg = session();
         $data = [
@@ -68,7 +69,76 @@ class Home extends BaseController
             'nama' => $session_lg->get('nama'),
         ];
         return view('hr/dashboard_h', $data);
+    } */
+
+    public function dashboard_k()
+{
+    $session_lg = session();
+    if (!$session_lg->get('logged_in')) {
+        return redirect()->to('/')->with('error', 'Silakan login terlebih dahulu.');
     }
+
+    $pendapatanModel = new PendapatanModel();
+    $pengeluaranModel = new PengeluaranModel();
+    $keuanganModel = new KeuanganModel();
+
+    $modalAwalRow = $keuanganModel->select('modal_awal')->orderBy('tanggal', 'DESC')->first();
+    $modalAwalValue = $modalAwalRow !== null ? $modalAwalRow['modal_awal'] : 0;
+    $formattedModalAwal = 'Rp ' . number_format($modalAwalValue);
+
+    $totalPendapatanBulanIni = $pendapatanModel->getTotalPendapatanBulanIni();
+    $totalPengeluaranBulanIni = $pengeluaranModel->getTotalPengeluaranBulanIni();
+    $dataPendapatanPerBulan = $pendapatanModel->getPendapatanPerBulan();
+
+    $data = [
+        'nama' => $session_lg->get('nama'),
+        'totalpend_bulan_ini' => $totalPendapatanBulanIni,
+        'totalpeng_bulan_ini' => $totalPengeluaranBulanIni,
+        'modal_awal' => $formattedModalAwal,
+        'data_pendapatan_bulan' => $dataPendapatanPerBulan,
+    ];
+
+    return view('keuangan/dashboard_k', $data);
+}
+
+public function dashboard_g()
+{
+    $session_lg = session();
+    if (!$session_lg->get('logged_in')) {
+        return redirect()->to('/')->with('error', 'Silakan login terlebih dahulu.');
+    }
+
+    $data = [
+        'nama' => $session_lg->get('nama'),
+    ];
+    return view('gudang/dashboard_g', $data);
+}
+
+public function dashboard_p()
+{
+    $session_lg = session();
+    if (!$session_lg->get('logged_in')) {
+        return redirect()->to('/')->with('error', 'Silakan login terlebih dahulu.');
+    }
+
+    $data = [
+        'nama' => $session_lg->get('nama'),
+    ];
+    return view('produksi/dashboard_p', $data);
+}
+
+public function dashboard_h()
+{
+    $session_lg = session();
+    if (!$session_lg->get('logged_in')) {
+        return redirect()->to('/')->with('error', 'Silakan login terlebih dahulu.');
+    }
+
+    $data = [
+        'nama' => $session_lg->get('nama'),
+    ];
+    return view('hr/dashboard_h', $data);
+}
 
     public function validasi()
 {
